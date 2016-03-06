@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+*{
+    margin:0;
+    padding:0;
+    font-family:'Open Sans',sans-serif;
+}
+body {
+    background-color: #123456 !important;
+}
+h1 {
+    text-align:center;
+    color:#FFFFFF !important;
+}
+a {
+    text-decoration: none !important;
+}
+a: hover {
+    text-decoration: none !important;
+}
+/*a:-webkit-any-link {
+    text-decoration: none;
+}*/
+.restaurant {
+    /*border:solid;*/
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:40px;
+    padding-right:40px;
+    /*line-height: 12px;*/
+    background-color:#FFFFFF;
+    position:relative;
+}
+.col {}
+/*List View */
+#name {
+    font-size:20px;
+    color:#000000;
+}
+#type {
+    font-weight:200;
+    font-style:italic;;
+    font-size:13px;
+    color: #807C79;
+}
+#price {
+    float:right;
+    color: #807C79;
+}
+#ratingnum {
+    font-size:14px;
+    color: #807C79;
+    font-weight: 200;
+}
+#ratingimg{
+
+}
+#makereservation {
+    float:right;
+    font-style:italic;
+    color: #807C79;
+}
