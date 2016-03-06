@@ -1,4 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 *{
     margin:0px;
     padding:0px;
+    background-color: #E77A10;
+    color:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+#logo{
+    margin-top:5px;
+}
+.title {
+    font-family: 'Open Sans', sans-serif;
+}
+/*.col-sm-2 {
+    margin-left:auto;
+    margin-right:auto;
+}*/
+#go {
+    padding:6px 15px;
+    background-color:#FFFFFF;
+    color:#E77A10;
+    border:none;
+    margin-top:50%;
+    margin-bottom:50%;
+    margin-left:30px;
+    font-weight: 600;
+    border:#FFFFFF;
+    font-size:40px;
+}
+
+#go:hover {
+    background-color:#D9B491;
+    opacity:.3;
+    border:#FFFFFF;
+    color:#FFFFFF;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+h1 {
+    text-align: center;
+    color:#FFFFFF;
+}
+
+#next {
+    margin-top:5px;
+    padding:6px 15px;
+    background-color: #FFFFFF;
+    color:#E77A10;
+    border:none;
+    margin-left:30px;
+    font-weight: 600;
+    border:#FFFFFF;
+    font-size:40px;
+}
+
+#next:hover {
+    background-color:#D9B491;
+    opacity:.3;
+    border:#FFFFFF;
+    color:#FFFFFF;
+}
+#Asian {
+    background:url("img/Asian_Logo_1.png");
+    height:300px;
+    width:300px;
+}
+#bbq {
+    background: url("img/BBQ_Logo_1.png");
+    height:300px;
+    width:300px;
+}
+#bfastbrunch {
+    background: url("img/Breakfast_Logo_1.png");
+    height:300px;
+    width:300px;
+}
+#fastfood {
+    background:url("img/FastFood_Logo_1.png");
+    height:300px;
+    width:300px;
+}
+#done {
+    padding:6px 15px;
+    background-color:#FFFFFF;
+    color:#E77A10;
+    border:none;
+    font-weight: 600;
+    border:#FFFFFF;
+    font-size:40px;
+}
+
+#done:hover {
+    background-color:#D9B491;
+    opacity:.3;
+    border:#FFFFFF;
+    color:#FFFFFF;
 }

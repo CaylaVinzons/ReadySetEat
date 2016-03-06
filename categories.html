@@ -3,32 +3,71 @@
     <head>
         <title>Categories</title>
         <link rel = "stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type = "text/css" href="bootstrap/bootstrap.min.css">
     </head>
     <body>
-        <h1>Categories</h1>
-        <div class = "row">
-            <h3> Sit in or Take away? </h3>
-            <label class="radio-inline"><input type="radio" name="optradio">IDC, tbh</label>
-            <label class="radio-inline"><input type="radio" name="optradio">Sit in!</label>
-            <label class="radio-inline"><input type="radio" name="optradio">Take away</label>
+        <div class="container-fluid">
+        <h1>CATEGORIES</h1>
+        <!-- <div class = "row">
+            <h3>Asian </h3>
+            <label class="radio-inline"><input type="radio" name="Asian" checked="checked">IDC, tbh</label>
+            <label class="radio-inline"><input type="radio" name="Asian">YASS</label>
+            <label class="radio-inline"><input type="radio" name="Asian">Nah</label>
         </div>
         <div class = "row">
-            <h3> Sit in or Take away? </h3>
-            <label class="radio-inline"><input type="radio" name="optradio">IDC, tbh</label>
-            <label class="radio-inline"><input type="radio" name="optradio">Sit in!</label>
-            <label class="radio-inline"><input type="radio" name="optradio">Take away</label>
+            <h3>Breakfast or Brunch</h3>
+            <label class="radio-inline"><input type="radio" name="BfastBrunch" checked="checked">IDC, tbh</label>
+            <label class="radio-inline"><input type="radio" name="BfastBrunch">YASS</label>
+            <label class="radio-inline"><input type="radio" name="BfastBrunch">Nah</label>
         </div>
         <div class = "row">
-            <h3> Sit in or Take away? </h3>
-            <label class="radio-inline"><input type="radio" name="optradio">IDC, tbh</label>
-            <label class="radio-inline"><input type="radio" name="optradio">Sit in!</label>
-            <label class="radio-inline"><input type="radio" name="optradio">Take away</label>
+            <h3>Fast Food</h3>
+            <label class="radio-inline"><input type="radio" name="FastFood" checked="checked">IDC, tbh</label>
+            <label class="radio-inline"><input type="radio" name="FastFood">YASS</label>
+            <label class="radio-inline"><input type="radio" name="FastFood">Nah</label>
         </div>
         <div class = "row">
-            <h3> Sit in or Take away? </h3>
-            <label class="radio-inline"><input type="radio" name="optradio">IDC, tbh</label>
-            <label class="radio-inline"><input type="radio" name="optradio">Sit in!</label>
-            <label class="radio-inline"><input type="radio" name="optradio">Take away</label>
+            <h3>Italian</h3>
+            <label class="radio-inline"><input type="radio" name="Italian" checked="checked">IDC, tbh</label>
+            <label class="radio-inline"><input type="radio" name="Italian">YASS</label>
+            <label class="radio-inline"><input type="radio" name="Italian">Nah</label>
         </div>
+        <div class = "row">
+            <h3>Mexican</h3>
+            <label class="radio-inline"><input type="radio" name="Mexican" checked="checked">IDC, tbh</label>
+            <label class="radio-inline"><input type="radio" name="Mexican">YASS</label>
+            <label class="radio-inline"><input type="radio" name="Mexican">Nah</label>
+        </div>
+        <div class = "row">
+            <h3>Burgers and Sandwiches</h3>
+            <label class="radio-inline"><input type="radio" name="Sandwiches" checked="checked">IDC, tbh</label>
+            <label class="radio-inline"><input type="radio" name="Sandwiches">YASS</label>
+            <label class="radio-inline"><input type="radio" name="Sandwiches">Nah</label>
+        </div>
+        <div class = "row">
+            <h3>Seafood</h3>
+            <label class="radio-inline"><input type="radio" name="Seafood" checked="checked">IDC, tbh</label>
+            <label class="radio-inline"><input type="radio" name="Seafood">YASS</label>
+            <label class="radio-inline"><input type="radio" name="Seafood">Nah</label>
+        </div> -->
+        <!-- <div class = "row">
+            <h3>Vegetarian</h3>
+            <label class="radio-inline"><input type="radio" name="Vegetarian" checked="checked">IDC, tbh</label>
+            <label class="radio-inline"><input type="radio" name="Vegetarian">YASS</label>
+            <label class="radio-inline"><input type="radio" name="Vegetarian">Nah</label>
+        </div>-->
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4" id="Asian" onclick=toggleasianimages()></div>
+            <div class="col-sm-4" id="bbq" onclick=togglebbqimages()></div>
+            <div class="col-sm-4" id="bfastbrunch" onclick=togglebfastbrunchimages()></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4" id="fastfood" onclick=togglefastfoodimages()></div>
+        </div>
+        <button id="done" onclick=getoptions()>Done!</button>
+    </div>
+    <script src="categories.js"></script>
     </body>
 </html>
